@@ -1,7 +1,13 @@
 <template>
   <div v-if="show" class="custom-modal-overlay">
-    <div class="custom-modal">
-      <h2 v-if="title">{{ title }}</h2>
+    <div class="custom-modal custom-modal-anim" @click.stop>
+      <template v-if="type === 'confirm'">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <span class="pi pi-exclamation-triangle" style="font-size: 2.5rem; color: #f44336; margin-bottom: 0.5rem;"></span>
+          <h2 v-if="title">{{ title }}</h2>
+        </div>
+      </template>
+      <h2 v-else-if="title">{{ title }}</h2>
       <div class="custom-modal-content">
         <slot>{{ message }}</slot>
       </div>
@@ -47,7 +53,8 @@ const props = defineProps({
   box-shadow: 0 4px 24px rgba(0,0,0,0.18);
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   min-width: 320px;
-  max-width: 90vw;
+  max-width: 400px;
+  width: 100%;
   text-align: center;
 }
 .custom-modal h2 {

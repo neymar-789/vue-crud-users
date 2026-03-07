@@ -11,11 +11,11 @@
         <table class="usuarios-table">
           <thead>
             <tr>
-              <th>Nombre</th>
-              <th>Usuario</th>
-              <th>Email</th>
-              <th>Teléfono</th>
-              <th>Acciones</th>
+              <th><span class="pi pi-user" style="margin-right: 0.3rem;"></span>Nombre</th>
+              <th><span class="pi pi-id-card" style="margin-right: 0.3rem;"></span>Usuario</th>
+              <th><span class="pi pi-envelope" style="margin-right: 0.3rem;"></span>Email</th>
+              <th><span class="pi pi-phone" style="margin-right: 0.3rem;"></span>Teléfono</th>
+              <th><span class="pi pi-cog" style="margin-right: 0.3rem;"></span>Acciones</th>
             </tr>
           </thead>
           <tbody>
@@ -264,7 +264,7 @@ h1 {
 .usuarios-table th, .usuarios-table td {
   border-bottom: 1px solid #e0e0e0;
   padding: 0.7rem 0.5rem;
-  text-align: left;
+  text-align: center;
   color: #111;
   min-width: 110px;
 }
