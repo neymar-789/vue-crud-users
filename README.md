@@ -8,7 +8,7 @@ consumiendo la API pública:
 El objetivo es gestionar usuarios (listar, crear, editar y eliminar) utilizando estado local,
 validaciones de formularios y una experiencia de usuario cómoda y clara.
 
----
+***
 
 ## 🧩 Tecnologías principales
 
@@ -19,14 +19,14 @@ validaciones de formularios y una experiencia de usuario cómoda y clara.
 - **VeeValidate 4 + Yup** para validación de formularios
 - **localStorage** para persistencia local del CRUD
 
----
+***
 
 ## ⚙️ Requisitos previos
 
 - Node.js 18+ (recomendado)
 - npm (gestor de paquetes)
 
----
+***
 
 ## 🚀 Instalación y ejecución
 
@@ -63,7 +63,7 @@ Previsualizar el build:
 npm run preview
 ```
 
----
+***
 
 ## 📋 Funcionalidades principales
 
@@ -112,7 +112,7 @@ npm run preview
   - Se elimina el usuario del array local.
   - `localStorage` se actualiza automáticamente.
 
----
+***
 
 ## ✨ Detalles de UX y validación
 
@@ -124,7 +124,7 @@ npm run preview
   - Usuario eliminado (versión especial en rojo).
 - Loader visible al menos 2 segundos al cargar datos, para una mejor percepción de estado.
 
----
+***
 
 ## 🧱 Estructura de componentes
 
@@ -134,7 +134,7 @@ npm run preview
 - `components/CustomModal.vue`: modal genérico de confirmación.
 - `components/NotificationToast.vue`: componente para notificaciones.
 
----
+***
 
 ## 📌 Posibles mejoras futuras
 
@@ -142,3 +142,4 @@ npm run preview
 - Añadir tests unitarios y de integración.
 - Internacionalización (i18n).
 - Integración de Vue Router para futuras vistas adicionales.
+

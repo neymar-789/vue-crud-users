@@ -217,7 +217,7 @@ function cancelDelete() {
 
 
 <style scoped>
-/* Puedes personalizar aún más los estilos de CustomModal en su propio archivo */
+
 h1 {
   margin-bottom: 1.5rem;
   color: #111;
